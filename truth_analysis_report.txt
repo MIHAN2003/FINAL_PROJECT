@@ -1,0 +1,52 @@
+======================================================================
+TRUTH CHECK REPORT
+======================================================================
+
+📅 Analysis Date: 2026-05-13 11:51:40
+
+📝 ARTICLE:
+trump dead
+
+
+======================================================================
+EXTRACTED KEYWORDS & ENTITIES
+======================================================================
+
+🔑 Keywords: Trump, death
+👥 Entities: Trump
+💬 Summary: The article states that Trump is dead.
+
+======================================================================
+TOP CORROBORATING SOURCES
+======================================================================
+
+1. The Verge
+   Title: The Iranian women Trump ‘saved’ from execution are simultaneously real and AI-manipulated
+   URL: https://www.theverge.com/policy/917180/trump-iran-ai-women-bita-hemmati
+
+2. Gizmodo.com
+   Title: The Cockroach of Dinosaurs Likely Survived Extinction Because of Its Big Wet Eggs
+   URL: https://gizmodo.com/the-cockroach-of-dinosaurs-likely-survived-extinction-because-of-its-big-wet-eggs-2000745388
+
+3. BBC News
+   Title: Parents jailed over death of five-week-old child
+   URL: https://www.bbc.com/news/articles/c9955872vdxo
+
+======================================================================
+CREDIBILITY ANALYSIS
+======================================================================
+
+❌ VERDICT: FALSE
+📊 Confidence: 100%
+⭐ Credibility Score: 1.5/10
+
+📋 Explanation:
+The user's claim of 'Trump dead' is false as there is no evidence or mention of this in the related sources.
+
+❌ Evidence Against or Missing Corroboration:
+   • The user's article does not have any factual basis or corroboration with the related sources.
+   • There is no mention of Trump being dead in any of the related sources.
+
+======================================================================
+Report generated: 2026-05-13 11:51:40
+======================================================================
