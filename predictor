@@ -1,0 +1,33 @@
+import requests
+import joblib # Used to load your "trained brain"
+
+# 1. Fetch News from API
+# (Use the code we wrote previously to get the 'content' of the article)
+
+# 2. Load your trained NLP model
+model = joblib.load('fake_news_model.pkl')
+vectorizer = joblib.load('vectorizer.pkl')
+
+# 3. Clean and Predict
+def check_news(text):
+    # Convert text into numbers the computer understands
+    transformed_text = vectorizer.transform([text])
+    # Predict: 0 for Fake, 1 for Real
+    prediction = model.predict(transformed_text)
+    return "REAL" if prediction == 1 else "FAKE"
+
+# 4. Show User Result
+# For each article from the API, run the check_news function
+import re
+
+def clean_text(text):
+    # Remove special characters and numbers
+    text = re.sub(r'[^a-zA-Z\s]', '', text)
+    # Convert to lowercase
+    text = text.lower()
+    return text
+
+# Test it
+raw_news = "BREAKING!!! 100% Real News about NASA! @2026"
+print(clean_text(raw_news)) 
+# Output: breaking real news about nasa
