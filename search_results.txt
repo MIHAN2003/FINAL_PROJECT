@@ -1,0 +1,124 @@
+SEARCH TOPIC: tesla
+TOTAL RESULTS: 2310
+======================================================================
+
+[ARTICLE 1]
+PREDICTION: ✓ REAL NEWS
+CONFIDENCE: 0.0%
+TITLE: Tesla Wants a $50,000 Penalty for Anyone Who Tries to Resell Its Signature Model S and X
+SOURCE: Gizmodo.com
+AUTHOR: Bruce Gil
+PUBLISHED: 2026-04-16T20:50:15Z
+DESCRIPTION: Why would anyone want to sell their Tesla?
+LINK: https://gizmodo.com/tesla-wants-a-50000-penalty-for-anyone-who-tries-to-resell-its-signature-model-s-and-x-2000747590
+IMAGE: https://gizmodo.com/app/uploads/2026/04/tesla_model_s-1200x675.jpg
+======================================================================
+
+[ARTICLE 2]
+PREDICTION: ✓ REAL NEWS
+CONFIDENCE: 0.0%
+TITLE: Tesla’s sales recover slightly, but the trend lines are all bad
+SOURCE: The Verge
+AUTHOR: Andrew J. Hawkins
+PUBLISHED: 2026-04-02T14:09:40Z
+DESCRIPTION: Tesla's first quarter sales report is out, and depending on how you look at it, the numbers are good but also bad. The company's sales are up a modest 6 percent year over year, but that's probably not the best way of looking at it considering the extraordinar…
+LINK: https://www.theverge.com/transportation/905811/tesla-q1-2026-sales-deliveries-elon-musk
+IMAGE: https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK086_TeslaD.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+======================================================================
+
+[ARTICLE 3]
+PREDICTION: ✓ REAL NEWS
+CONFIDENCE: 0.0%
+TITLE: Tesla Drivers Can Finally Activate Grok Without Looking Down at a Screen
+SOURCE: Gizmodo.com
+AUTHOR: Mike Pearl
+PUBLISHED: 2026-04-14T09:30:00Z
+DESCRIPTION: Hear me out: You should be relieved about this.
+LINK: https://gizmodo.com/great-news-tesla-drivers-can-finally-activate-grok-without-looking-down-at-a-screen-2000745999
+IMAGE: https://gizmodo.com/app/uploads/2025/12/shutterstock_2396034011-1200x675.jpg
+======================================================================
+
+[ARTICLE 4]
+PREDICTION: 🚨 FAKE NEWS
+CONFIDENCE: 33.3%
+TITLE: Tesla is un-canceling its plan to build a smaller, cheaper EV: report
+SOURCE: The Verge
+AUTHOR: Andrew J. Hawkins
+PUBLISHED: 2026-04-09T15:03:30Z
+DESCRIPTION: It looks like a smaller, cheaper Tesla is back on the menu. Today, Reuters is reporting that the electric automaker is calling around to suppliers about building an all-new - that is, not based on the Model 3 or the Model Y - electric SUV that would be more a…
+LINK: https://www.theverge.com/transportation/909196/tesla-cheap-affordable-ev-musk-model-2
+IMAGE: https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKE001_STK086_Tesla_Robotaxi_3_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+======================================================================
+
+[ARTICLE 5]
+PREDICTION: ✓ REAL NEWS
+CONFIDENCE: 0.0%
+TITLE: California Regulator Says Tesla’s ‘Robotaxis’ Are More Like a Limo in the Eyes of the Law
+SOURCE: Gizmodo.com
+AUTHOR: Bruce Gil
+PUBLISHED: 2026-03-26T15:45:54Z
+DESCRIPTION: Tesla’s ride-sharing permit in the state means it doesn’t have to submit data on its operations.
+LINK: https://gizmodo.com/california-regulator-says-teslas-robotaxis-are-more-like-a-limo-in-the-eyes-of-the-law-2000738512
+IMAGE: https://gizmodo.com/app/uploads/2025/06/GettyImages-2220744156-1200x675.jpg
+======================================================================
+
+[ARTICLE 6]
+PREDICTION: 🚨 FAKE NEWS
+CONFIDENCE: 33.3%
+TITLE: Ford’s EV and software chief Doug Field is leaving the company
+SOURCE: The Verge
+AUTHOR: Andrew J. Hawkins
+PUBLISHED: 2026-04-15T19:59:39Z
+DESCRIPTION: Doug Field, who left Apple five years ago to helm Ford's multibillion-dollar bet on electric vehicles and software, is stepping down next month. Replacing him will be Alan Clarke, the ex-Tesla engineer who now leads Ford's California-based skunkworks lab. Cla…
+LINK: https://www.theverge.com/transportation/912647/ford-doug-field-leaving-ev-software
+IMAGE: https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/Vrg_illo_Doug_field_ford.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+======================================================================
+
+[ARTICLE 7]
+PREDICTION: ✓ REAL NEWS
+CONFIDENCE: 0.0%
+TITLE: Tesla Technically Launched Robotaxis in Dallas and Houston (Just in Time for Quarterly Earnings)
+SOURCE: Gizmodo.com
+AUTHOR: AJ Dellinger
+PUBLISHED: 2026-04-20T19:00:46Z
+DESCRIPTION: It's less for riders and more for shareholders.
+LINK: https://gizmodo.com/tesla-technically-launched-robotaxis-in-dallas-and-houston-just-in-time-for-quarterly-earnings-2000748611
+IMAGE: https://gizmodo.com/app/uploads/2025/08/tesla-robotaxi-2025-1200x675.jpg
+======================================================================
+
+[ARTICLE 8]
+PREDICTION: ✓ REAL NEWS
+CONFIDENCE: 0.0%
+TITLE: Iran Threatens to Strike US Tech Companies in the Middle East
+SOURCE: CNET
+AUTHOR: Omar Gallaga
+PUBLISHED: 2026-04-01T22:49:00Z
+DESCRIPTION: US tech companies, including Apple, Google, Microsoft and Tesla, are being warned that they are being considered "legitimate targets."
+LINK: https://www.cnet.com/tech/us-tech-companies-are-being-targeted-by-irans-revolutionary-guard/
+IMAGE: https://www.cnet.com/a/img/resize/ead920dd5702807670449ddbb88f44c106eec034/hub/2026/04/01/00afbd46-2b7c-4252-9f11-ed19221bb9f6/gettyimages-2265951161.jpg?auto=webp&fit=crop&height=675&width=1200
+======================================================================
+
+[ARTICLE 9]
+PREDICTION: ✓ REAL NEWS
+CONFIDENCE: 0.0%
+TITLE: A market analyst shares why he thinks Tesla is the 'single greatest stock short' in market history
+SOURCE: Business Insider
+AUTHOR: sobrient@insider.com (Samuel O'Brient)
+PUBLISHED: 2026-04-10T19:02:35Z
+DESCRIPTION: Gordon Johnson predicts Tesla's stock could fall to $25 a share, citing its sky-high valuation, slowing sales, and changes in options trading.
+LINK: https://www.businessinsider.com/tesla-stock-short-bearish-elon-musk-options-trading-markets-tsla-2026-4
+IMAGE: https://i.insider.com/69d9177796ef6a4c9d121a59?width=1200&format=jpeg
+======================================================================
+
+[ARTICLE 10]
+PREDICTION: 🚨 FAKE NEWS
+CONFIDENCE: 33.3%
+TITLE: Tesla Is Reportedly Working on a Cheaper Electric SUV Model
+SOURCE: CNET
+AUTHOR: Omar Gallaga
+PUBLISHED: 2026-04-09T18:37:28Z
+DESCRIPTION: The company previously scrapped efforts at a vehicle in the $25,000 range.
+LINK: https://www.cnet.com/home/electric-vehicles/report-teslas-working-on-a-cheaper-compact-suv-model/
+IMAGE: https://www.cnet.com/a/img/resize/e038a2d52a096f872f91a7de830b97a69410f5b9/hub/2025/11/15/acc64d87-d120-442e-b157-b7cba19bf0db/tesla-fsd-v14-in-use.jpg?auto=webp&fit=crop&height=675&width=1200
+======================================================================
+
