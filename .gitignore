@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+*.pkl
+*.pyc
+.DS_Store
+*.log
+fake_news_model.pkl
+vectorizer.pkl
