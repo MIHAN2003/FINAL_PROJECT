@@ -8,12 +8,51 @@
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body {
-    background: #f0eeeb;
-    font-family: 'Instrument Sans', sans-serif;
-    min-height: 100vh;
-    padding: 32px 16px 64px;
-  }
+  
+body {
+  background:
+    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+    url('assets/news-bg.jpeg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-family: 'Instrument Sans', sans-serif;
+  min-height: 100vh;
+  padding: 32px 16px 64px;
+}
+
+
+.main-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  border: 1px solid rgba(255,255,255,0.3);
+
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.25);
+}
+
+.page-title {
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(52px, 9vw, 80px);
+  letter-spacing: -1px;
+  color: white;
+  margin-bottom: 36px;
+  line-height: 1;
+
+  text-shadow:
+    0 4px 12px rgba(0,0,0,0.6);
+}
 
   /* TOP BAR */
   .topbar {

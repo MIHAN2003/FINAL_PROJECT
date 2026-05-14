@@ -2,51 +2,55 @@
 TRUTH CHECK REPORT
 ======================================================================
 
-📅 Analysis Date: 2026-05-13 11:51:40
+📅 Analysis Date: 2026-05-14 18:26:14
 
 📝 ARTICLE:
-trump dead
+Donald Trump arrives in Beijing for summit with Xi Jinping
 
 
 ======================================================================
 EXTRACTED KEYWORDS & ENTITIES
 ======================================================================
 
-🔑 Keywords: Trump, death
-👥 Entities: Trump
-💬 Summary: The article states that Trump is dead.
+🔑 Keywords: Donald Trump, Beijing, summit, Xi Jinping
+👥 Entities: Donald Trump, Xi Jinping
+💬 Summary: Donald Trump arrived in Beijing to hold a summit with Xi Jinping.
+
+📌 Main Claims:
+   1. Donald Trump arrived in Beijing
+   2. for a summit with Xi Jinping
 
 ======================================================================
 TOP CORROBORATING SOURCES
 ======================================================================
 
-1. The Verge
-   Title: The Iranian women Trump ‘saved’ from execution are simultaneously real and AI-manipulated
-   URL: https://www.theverge.com/policy/917180/trump-iran-ai-women-bita-hemmati
+1. Abcnews.com
+   Title: Trump arrives in Beijing for high-stakes summit with Xi
+   URL: https://abcnews.com/Politics/trump-arrives-beijing-high-stakes-summit-xi/story?id=132910116
 
-2. Gizmodo.com
-   Title: The Cockroach of Dinosaurs Likely Survived Extinction Because of Its Big Wet Eggs
-   URL: https://gizmodo.com/the-cockroach-of-dinosaurs-likely-survived-extinction-because-of-its-big-wet-eggs-2000745388
+2. Yahoo Entertainment
+   Title: Trump lands in China for Xi summit with Nvidia CEO in tow
+   URL: https://finance.yahoo.com/news/nvidia-ceo-joins-trumps-mission-041122393.html
 
-3. BBC News
-   Title: Parents jailed over death of five-week-old child
-   URL: https://www.bbc.com/news/articles/c9955872vdxo
+3. Yahoo Entertainment
+   Title: Xi-Trump summit may yield farm deal, but China has limited soybean appetite
+   URL: https://finance.yahoo.com/news/xi-trump-summit-may-yield-024902331.html
 
 ======================================================================
 CREDIBILITY ANALYSIS
 ======================================================================
 
-❌ VERDICT: FALSE
+✅ VERDICT: TRUE
 📊 Confidence: 100%
-⭐ Credibility Score: 1.5/10
+⭐ Credibility Score: 8.5/10
 
 📋 Explanation:
-The user's claim of 'Trump dead' is false as there is no evidence or mention of this in the related sources.
+The user's article aligns with multiple related sources confirming Donald Trump's arrival in Beijing for a summit with Xi Jinping, indicating a high level of credibility.
 
-❌ Evidence Against or Missing Corroboration:
-   • The user's article does not have any factual basis or corroboration with the related sources.
-   • There is no mention of Trump being dead in any of the related sources.
+✅ Evidence Supporting the Article:
+   • Abcnews.com confirms Trump's arrival in Beijing for a summit with Xi Jinping.
+   • Yahoo Entertainment also reports on Trump's visit to China for a summit with Xi Jinping.
 
 ======================================================================
-Report generated: 2026-05-13 11:51:40
+Report generated: 2026-05-14 18:26:14
 ======================================================================

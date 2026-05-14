@@ -116,5 +116,10 @@ def index():
     """Serve the frontend HTML."""
     return send_from_directory('.', 'index.html')
 
+@app.route('/assets/<path:filename>')
+def serve_assets(filename):
+    """Serve static files from assets folder."""
+    return send_from_directory('assets', filename)
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
