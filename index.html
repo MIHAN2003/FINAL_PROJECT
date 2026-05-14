@@ -54,7 +54,7 @@ body {
     0 4px 12px rgba(0,0,0,0.6);
 }
 
-  /* TOP BAR */
+  
   .topbar {
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,7 @@ body {
     padding: 0 4px;
   }
 
-  /* PAGE TITLE */
+  
   .page-title {
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
@@ -75,7 +75,7 @@ body {
     line-height: 1;
   }
 
-  /* MAIN CARD */
+  
   .main-card {
     max-width: 900px;
     margin: 0 auto;
@@ -85,7 +85,7 @@ body {
     box-shadow: 0 2px 24px rgba(0,0,0,0.07);
   }
 
-  /* CARD HEADER */
+  
   .card-header {
     background: #111;
     padding: 18px 28px;
@@ -106,7 +106,7 @@ body {
     letter-spacing: 0.5px;
   }
 
-  /* CARD BODY */
+  
   .card-body { padding: 28px 28px 32px; }
 
   /* TEXTAREA */
@@ -147,7 +147,7 @@ body {
     pointer-events: none;
   }
 
-  /* ANALYSIS OPTIONS */
+  
   .section-label {
     font-size: 11px;
     font-weight: 700;
@@ -174,7 +174,7 @@ body {
   .option-pill.active { border-color: #111; background: #111; color: white; }
   .pill-icon { font-size: 14px; }
 
-  /* BUTTONS */
+  
   .buttons-row { display: flex; gap: 10px; margin-top: 20px; }
   .btn-check {
     flex: 1;
@@ -208,7 +208,7 @@ body {
   }
   .btn-clear:hover { border-color: #111; background: #f8f8f8; }
 
-  /* RESULTS AREA */
+  
   .results-area {
     margin-top: 20px;
     border: 2px dashed #ddd;
@@ -227,7 +227,7 @@ body {
   }
   .results-placeholder strong { color: #555; }
 
-  /* LOADING STATE */
+  
   .loading-state {
     display: none;
     flex-direction: column;
@@ -247,7 +247,7 @@ body {
   .loading-msg { font-size: 14px; color: #666; font-weight: 500; }
   .loading-step { font-size: 12px; color: #aaa; font-family: monospace; }
 
-  /* RESULT CARD */
+  
   .result-content {
     display: none;
     width: 100%;
@@ -293,7 +293,7 @@ body {
   .score-num.real { color: #059669; }
   .score-lbl { font-size: 10px; text-transform: uppercase; letter-spacing: 0.8px; color: #aaa; font-weight: 600; }
 
-  /* METRICS GRID */
+  
   .metrics-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 20px; }
   .metric-box {
     background: #fafafa;
@@ -306,7 +306,7 @@ body {
   .bar-track { height: 5px; background: #eee; border-radius: 100px; overflow: hidden; }
   .bar-fill { height: 100%; border-radius: 100px; width: 0; transition: width 0.9s cubic-bezier(0.4,0,0.2,1); }
 
-  /* PROBABILITY DISTRIBUTION */
+  
   .prob-section { margin-bottom: 20px; }
   .prob-section-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; color: #555; margin-bottom: 12px; }
   .prob-bars { display: flex; flex-direction: column; gap: 8px; }
@@ -316,7 +316,7 @@ body {
   .prob-fill { height: 100%; border-radius: 100px; transition: width 0.9s cubic-bezier(0.4,0,0.2,1); }
   .prob-pct { font-size: 12px; font-weight: 600; color: #333; width: 36px; text-align: right; }
 
-  /* KEY SIGNALS */
+  
   .signals-section { }
   .signals-title { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; color: #555; margin-bottom: 12px; }
   .signal-item { display: flex; gap: 10px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
@@ -324,7 +324,7 @@ body {
   .signal-dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
   .signal-text { font-size: 13px; color: #444; line-height: 1.5; }
 
-  /* DIVIDER IN RESULTS AREA */
+  
   .results-area.has-results {
     border: none;
     display: block;
@@ -465,7 +465,7 @@ body {
     btn.disabled = true;
     btn.textContent = '⏳ Analyzing...';
 
-    // Show loading
+    
     document.getElementById('placeholder').style.display = 'none';
     document.getElementById('result-content').classList.remove('visible');
     document.getElementById('loading').classList.add('visible');
@@ -604,7 +604,7 @@ body {
       </div>`;
     }
 
-    // Related Articles Section
+   
     console.log('Related articles data:', r.related_articles);
     if (r.related_articles !== undefined) {
       const articles = r.related_articles.slice(0, 5);
@@ -630,7 +630,7 @@ body {
 
     rc.classList.add('visible');
 
-    // Animate bars after DOM insert
+    
     setTimeout(() => {
       rc.querySelectorAll('.bar-fill, .prob-fill').forEach(el => {
         el.style.width = el.dataset.w + '%';
