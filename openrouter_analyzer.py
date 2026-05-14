@@ -93,7 +93,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
         try:
             response_text = self._call_openrouter(prompt)
 
-            # Parse JSON response
+            
             result = json.loads(response_text)
 
             print(f"✓ Extracted {len(result.get('keywords', []))} keywords")
@@ -139,7 +139,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
         """
         print("🔬 [OpenRouter] Analyzing credibility against related sources...")
 
-        # Format related articles for context
+       
         sources_text = ""
         for idx, article in enumerate(related_articles[:10], 1):
             title = article.get('title', 'N/A')
@@ -147,7 +147,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
             source = article.get('source', {}).get('name', 'Unknown')
             sources_text += f"\n[Source {idx}] {source}\nTitle: {title}\nContent: {description}\n"
 
-        # Add ML prediction if available
+        
         ml_note = ""
         if ml_prediction:
             pred, conf = ml_prediction
@@ -184,7 +184,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
         try:
             response_text = self._call_openrouter(prompt)
 
-            # Parse JSON response
+            
             result = json.loads(response_text)
 
             # Ensure all required fields exist

@@ -64,7 +64,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
             )
             response_text = response.text.strip()
             
-            # Parse JSON response
+            
             result = json.loads(response_text)
             
             print(f"✓ Extracted {len(result.get('keywords', []))} keywords")
@@ -112,7 +112,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
         """
         print("🔬 [Gemini] Analyzing credibility against related sources...")
         
-        # Format related articles for context
+        
         sources_text = ""
         for idx, article in enumerate(related_articles[:10], 1):
             title = article.get('title', 'N/A')
@@ -120,7 +120,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
             source = article.get('source', {}).get('name', 'Unknown')
             sources_text += f"\n[Source {idx}] {source}\nTitle: {title}\nContent: {description}\n"
         
-        # Add ML prediction if available
+       
         ml_note = ""
         if ml_prediction:
             pred, conf = ml_prediction
@@ -161,7 +161,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
             )
             response_text = response.text.strip()
             
-            # Parse JSON response
+            
             result = json.loads(response_text)
             
             # Ensure all required fields exist
@@ -181,7 +181,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
             print(f"⚠ Warning: Failed to parse credibility response: {e}")
             if 'response_text' in locals():
                 print(f"Response was: {response_text}\n")
-            # Return default structure on parse error
+            
             return {
                 "verdict": "MIXED",
                 "confidence": 50,
@@ -212,7 +212,7 @@ IMPORTANT: Return ONLY the JSON object, nothing else."""
         Returns:
             str: Formatted search query
         """
-        # Take most relevant keywords and join with OR
+        
         selected = keywords[:max_keywords]
         query = " OR ".join(selected)
         return query

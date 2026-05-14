@@ -4,10 +4,10 @@ from datetime import datetime
 from typing import Dict, List, Tuple
 from dotenv import load_dotenv
 
-# Load environment variables
+
 load_dotenv()
 
-# Import the appropriate analyzer based on LLM_PROVIDER
+
 llm_provider = os.getenv('LLM_PROVIDER', 'gemini').lower()
 
 if llm_provider == 'openrouter':
@@ -39,7 +39,7 @@ class TruthChecker:
         """
         self.newsapi_key = newsapi_key
         
-        # Initialize the appropriate analyzer based on LLM_PROVIDER
+        
         if llm_provider == 'openrouter':
             self.analyzer = AnalyzerClass(analyzer_api_key)
         else:  # gemini
@@ -70,7 +70,7 @@ class TruthChecker:
                 articles = data['articles'][:max_results]
                 print(f"✓ Found {len(articles)} related articles\n")
                 
-                # Save to file for reference
+                
                 with open('related_articles.txt', 'w', encoding='utf-8') as f:
                     f.write(f"RELATED ARTICLES FOR: {keywords}\n")
                     f.write(f"TOTAL FOUND: {data['totalResults']}\n")
@@ -118,7 +118,7 @@ class TruthChecker:
         report.append(f"\n📅 Analysis Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         report.append(f"\n📝 ARTICLE SUMMARY:\n{article_text[:200]}...\n" if len(article_text) > 200 else f"\n📝 ARTICLE:\n{article_text}\n")
         
-        # Keywords section
+       
         report.append("\n" + "="*70)
         report.append("EXTRACTED KEYWORDS & ENTITIES")
         report.append("="*70)
@@ -128,14 +128,14 @@ class TruthChecker:
         report.append(f"👥 Entities: {', '.join(entities) if entities else 'N/A'}")
         report.append(f"💬 Summary: {keywords_data.get('summary', 'N/A')}")
         
-        # Main claims section
+      
         main_claims = keywords_data.get('main_claims', [])
         if main_claims:
             report.append(f"\n📌 Main Claims:")
             for idx, claim in enumerate(main_claims, 1):
                 report.append(f"   {idx}. {claim}")
         
-        # Related sources section
+        
         report.append("\n" + "="*70)
         report.append("TOP CORROBORATING SOURCES")
         report.append("="*70)
@@ -147,7 +147,7 @@ class TruthChecker:
         else:
             report.append("\n⚠ No related articles found")
         
-        # Credibility analysis section
+        
         report.append("\n" + "="*70)
         report.append("CREDIBILITY ANALYSIS")
         report.append("="*70)
@@ -156,14 +156,14 @@ class TruthChecker:
         confidence = credibility_data.get('confidence', 0)
         score = credibility_data.get('credibility_score', 0)
         
-        # Emoji for verdict
+       
         verdict_emoji = {"TRUE": "✅", "FALSE": "❌", "MIXED": "⚠️"}.get(verdict, "❓")
         
         report.append(f"\n{verdict_emoji} VERDICT: {verdict}")
         report.append(f"📊 Confidence: {confidence}%")
         report.append(f"⭐ Credibility Score: {score}/10")
         
-        # Evidence section
+        
         report.append(f"\n📋 Explanation:\n{credibility_data.get('explanation', 'N/A')}")
         
         evidence_for = credibility_data.get('evidence_for', [])
@@ -199,20 +199,20 @@ class TruthChecker:
         print("STARTING FACT-CHECK PIPELINE")
         print("="*70 + "\n")
         
-        # Step 1: Extract keywords
+       
         print("STEP 1: KEYWORD EXTRACTION")
         print("-"*70)
         keywords_data = self.analyzer.extract_keywords(article_text)
         
         ml_prediction = None
         
-        # Step 2: Search for related news
+        
         print("STEP 2: NEWS SEARCH")
         print("-"*70)
         search_query = self.analyzer.format_search_query(keywords_data.get('keywords', []))
         self.search_related_news(search_query)
         
-        # Step 3: Analyze credibility
+        
         print("STEP 3: CREDIBILITY ANALYSIS")
         print("-"*70)
         credibility_data = self.analyzer.analyze_credibility(
@@ -220,7 +220,7 @@ class TruthChecker:
             self.related_articles
         )
         
-        # Step 4: Generate report
+        
         print("STEP 4: GENERATING REPORT")
         print("-"*70)
         report = self.generate_truth_report(
@@ -230,7 +230,7 @@ class TruthChecker:
             ml_prediction
         )
         
-        # Save report to file
+        
         with open('truth_analysis_report.txt', 'w', encoding='utf-8') as f:
             f.write(report)
         

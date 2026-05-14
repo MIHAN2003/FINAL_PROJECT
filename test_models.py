@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """Test script to find available Gemini models"""
 import os
 from dotenv import load_dotenv
